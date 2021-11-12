@@ -120,6 +120,7 @@ nav a {
   color: #ffffff;
   padding: 22px 77px;
   margin-bottom: 40px;
+  text-transform: uppercase;
   transition: all 0.5s linear;
 }
 
@@ -128,8 +129,12 @@ nav a {
   transform: scale(1.05);
 }
 
+.banner__send {
+  text-transform: uppercase;
+}
 .banner__send a {
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1200px) {
@@ -228,7 +233,7 @@ nav a {
 
 .introducing_bammer {
   position: absolute;
-  top: 160px;
+  top: 162px;
   left: 68px;
 }
 
@@ -289,7 +294,7 @@ nav a {
 /* Review */
 
 .review {
-  background: #4a3949 url(./img/image_behaind.png) center no-repeat;
+  background: #431b2b url(./img/image_behaind.png) center no-repeat;
   height: 490px;
   display: flex;
   justify-content: center;

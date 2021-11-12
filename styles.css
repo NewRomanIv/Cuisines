@@ -261,6 +261,7 @@ nav a {
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 30px;
+  margin-right: 1%;
 }
 
 .services {
@@ -394,7 +395,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0 2%;
   height: 176px;
 }
 
@@ -422,6 +423,7 @@ footer {
   justify-content: space-between;
   color: #8b8b8b;
   font-weight: 300;
+  padding: 0 2%;
 }
 
 .futer__item a {
@@ -446,34 +448,41 @@ footer {
   padding-top: 60px;
 }
 
-.modal-content {
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #3788ab;
-  margin: 5px auto;
+  margin: 0 auto;
   border: 3px solid #ffffff;
   max-width: 600px;
   opacity: 0.9;
   text-align: center;
 }
 
+.modal__items {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 2px solid #ccc;
-  box-sizing: border-box;
 }
 
 .modal-btn {
   background-color: #4caf50;
   color: white;
-  padding: 14px 20px;
+  padding: 12px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 80%;
 }
 
 button:hover {
@@ -493,6 +502,25 @@ img.avatar {
 .modal__account a {
   font-size: 18px;
   color: #fff;
+}
+
+@media (max-width: 420px) {
+  img.avatar {
+    width: 10%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 1% 2%;
+    margin: 1% 0;
+    border: 1px solid #ccc;
+  }
+
+  .modal-btn {
+    padding: 1% 2%;
+    margin: 1% 0;
+  }
 }
 
 /* The Close Button */

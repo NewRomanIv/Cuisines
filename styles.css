@@ -445,7 +445,7 @@ footer {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
-  padding-top: 60px;
+  padding-top: 2%;
 }
 
 .modal-form {
@@ -504,7 +504,7 @@ img.avatar {
   color: #fff;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   img.avatar {
     width: 10%;
   }
